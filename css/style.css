@@ -341,7 +341,7 @@ footer h5 {
 
     .grid {
         grid-template-columns: 100%;
-        grid-template-rows: 15% 45% 45%;
+        grid-template-rows: 15% 40% 45%;
         grid-template-areas: 
         "subtitle"
         "img1"
@@ -353,13 +353,12 @@ footer h5 {
     }
 
     .font {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .imgintro {
         width: 350px;
         height: 200px;
-        padding: 5px;
     }
 
     .grid1 {
@@ -427,7 +426,7 @@ footer h5 {
 
     .grid {
         grid-template-columns: 100%;
-        grid-template-rows: 15% 45% 45%;
+        grid-template-rows: 15% 40% 45%;
         grid-template-areas: 
         "subtitle"
         "img1"

@@ -182,7 +182,7 @@ SIGUIENTES PAGINAS*/
 .part2 {
     background-color: #dd7e3a;
     font-size: 20px;
-    height: auto;
+    height: 250px;
     display: flex;
     align-items: center;
     margin: 25px;
@@ -197,7 +197,7 @@ SIGUIENTES PAGINAS*/
 .part1 { 
     background-color: #9b775e; 
     font-size: 20px;
-    height: auto;
+    height: 250px;
     margin: 25px;
     display: flex;
     align-items: center;
@@ -340,8 +340,8 @@ footer h5 {
         padding:0px;
     }
     header nav ul li a {
-        font-size: 10px;
-        margin-right: 5px;
+        font-size: 11px;
+        margin-right: 8px;
     }
 
     h2 {
@@ -405,12 +405,14 @@ footer h5 {
     }
 
     .part2 {
+        height: auto;
         font-size: 13px;
         display: block;
         margin: 8px;
     }
 
     .part1 { 
+        height: auto;
         font-size: 13px;
         display: block;
         margin: 8px;

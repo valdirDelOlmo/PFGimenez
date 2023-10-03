@@ -182,7 +182,7 @@ SIGUIENTES PAGINAS*/
 .part2 {
     background-color: #dd7e3a;
     font-size: 20px;
-    height: 250px;
+    height: auto;
     display: flex;
     align-items: center;
     margin: 25px;
@@ -197,7 +197,8 @@ SIGUIENTES PAGINAS*/
 .part1 { 
     background-color: #9b775e; 
     font-size: 20px;
-    height: 250px;
+    height: auto;
+    margin: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -214,6 +215,7 @@ SIGUIENTES PAGINAS*/
 }
 
 .sub2 {
+    font-family:'Macondo-regular';
     background-color: #d6cbc1;
     width: 540px;
     display: flex;
@@ -305,11 +307,13 @@ SIGUIENTES PAGINAS*/
 }
 
 footer h4{
+    font-family: 'Macondo-regular';
     font-size: 20px;
     color: #ffffff;
 }
 
 footer h5 {
+    font-family: 'Macondo-regular';
     font-size: 16px;
 }
 
@@ -317,8 +321,9 @@ footer h5 {
 /*MEDIA QUERIES (PAGINAS INDEX Y CONTACTO*/
 
 @media (min-width: 380px) and (max-width: 575px){
+    
     .icon {
-        justify-content: center;
+    justify-content: center;
     }
     .menu1 {
     justify-content: center;
@@ -330,13 +335,24 @@ footer h5 {
         height: 18px;
         width: 18px;
     }
+
+    header nav ul {
+        padding:0px;
+    }
     header nav ul li a {
         font-size: 10px;
         margin-right: 5px;
     }
 
     h2 {
-        font-size: 20px;
+        font-family: 'Macondo Regular';
+        font-size: 18px;
+        padding: 0px;
+    }
+
+    h3 {
+        font-family: 'Macondo Regular';
+        font-size: 17px;
     }
 
     .grid {
@@ -359,6 +375,7 @@ footer h5 {
     .imgintro {
         width: 350px;
         height: 200px;
+        padding: 5px;
     }
 
     .grid1 {
@@ -371,13 +388,42 @@ footer h5 {
         "address";
     }
 
+    .imgtar {
+        width: 350px;
+        height: 200px;
+        padding: 3px;
+    }
+
+    .imgdyd {
+        width: 350px;
+        height: 200px;
+        padding: 3px;
+    }
+
+    .video {
+        height: 400px;
+    }
+
+    .part2 {
+        font-size: 13px;
+        display: block;
+        margin: 8px;
+    }
+
+    .part1 { 
+        font-size: 13px;
+        display: block;
+        margin: 8px;
+    }
+
+
     section div iframe {
         width: 300px;
         height: 250px;
     }
 
     .address {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .form {

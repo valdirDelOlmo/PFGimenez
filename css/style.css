@@ -353,6 +353,7 @@ footer h5 {
     h3 {
         font-family: 'Macondo Regular';
         font-size: 17px;
+        font-weight: bold;
     }
 
     .grid {
@@ -472,6 +473,18 @@ footer h5 {
         margin-right: 12px;
     }
 
+    h2 {
+        font-family: 'Macondo Regular';
+        font-size: 22px;
+        padding: 0px;
+    }
+
+    h3 {
+        font-family: 'Macondo Regular';
+        font-size: 20px;
+        font-weight: bold;
+    }
+
     .grid {
         grid-template-columns: 100%;
         grid-template-rows: 15% 40% 45%;
@@ -501,6 +514,36 @@ footer h5 {
         "sub sub"
         "form iframe"
         "address address";
+    }
+
+    .imgtar {
+        width: 530px;
+        height: 350px;
+        padding: 5px;
+    }
+
+    .imgdyd {
+        width: 530px;
+        height: 350px;
+        padding: 5px;
+    }
+
+    .video {
+        height: 500px;
+    }
+
+    .part2 {
+        height: auto;
+        font-size: 15px;
+        display: block;
+        margin: 8px;
+    }
+
+    .part1 { 
+        height: auto;
+        font-size: 15px;
+        display: block;
+        margin: 8px;
     }
 
     form div {
@@ -555,6 +598,19 @@ footer h5 {
         margin-right: 22px;
     }
 
+    
+    h2 {
+        font-family: 'Macondo Regular';
+        font-size: 24px;
+        padding: 0px;
+    }
+
+    h3 {
+        font-family: 'Macondo Regular';
+        font-size: 23px;
+        font-weight: bold;
+    }
+
     .imgoffice {
         height: 280px;
     }
@@ -568,6 +624,37 @@ footer h5 {
         height: 300px;
         padding: 10px;
     }
+
+    .imgtar {
+        width: 750px;
+        height: 500px;
+        padding: 10px;
+    }
+
+    .imgdyd {
+        width:  750px;
+        height: 3500px;
+        padding: 10px;
+    }
+
+    .video {
+        height: 500px;
+    }
+
+    .part2 {
+        height: auto;
+        font-size: 15px;
+        display: block;
+        margin: 8px;
+    }
+
+    .part1 { 
+        height: auto;
+        font-size: 15px;
+        display: block;
+        margin: 8px;
+    }
+
 
     .form {
         padding-right: 65px;

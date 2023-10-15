@@ -160,18 +160,12 @@ SIGUIENTES PAGINAS*/
 }
 
 .imgintro {
-    width: 900px;
-    height: 550px;
+    border-radius: 30px;
 }
 
 .video {
     width: 100%;
     height: 945px;
-}
-
-.imgtar {
-    width: 600px;
-    height: 400px;
 }
 
 .tit {
@@ -208,6 +202,25 @@ SIGUIENTES PAGINAS*/
     font-weight: bold;
 }
 
+.cards  {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card   {
+    font-size: 18px;
+    background-color: rgb(139, 75, 14);
+    height: 590px;
+    width: 400px;
+    border: 4px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 30px;
+    font-weight: bold;
+    color: #b1b0b0;
+}
+
 .sub1 {
     padding: 25px;
     display: flex;
@@ -224,11 +237,6 @@ SIGUIENTES PAGINAS*/
     border: 2px solid;
     border-radius: 8px;
     box-shadow: 0px 0px 20px;
-}
-
-.imgdyd {
-    width: 700px;
-    height: 400px;
 }
 
 .main2 {
@@ -296,14 +304,23 @@ SIGUIENTES PAGINAS*/
     text-align: center;
 }
 
-.imgs {
+/* .imgs {
     display: flex;
     justify-content: center;
-}
+    align-items: center;
+} */
 
 .footer1 img {
     height: 60px;
-    width: 80px;
+    width: 56px;
+}
+
+.links  {
+    width: auto;
+}
+
+.row {
+    justify-content: center;
 }
 
 footer h4{
@@ -453,8 +470,8 @@ footer h5 {
     }
 
     .footer1 img {
-        height: 35px;
-        width: 60px;
+        height: 40px;
+        width: 36px;
     }
 }
 
@@ -578,8 +595,8 @@ footer h5 {
     }
 
     .footer1 img {
-        height: 35px;
-        width: 60px;
+        height: 44px;
+        width: 40px;
     }
 }
 
@@ -633,7 +650,7 @@ footer h5 {
 
     .imgdyd {
         width:  750px;
-        height: 3500px;
+        height: 500px;
         padding: 10px;
     }
 
@@ -683,8 +700,8 @@ footer h5 {
     }
 
     .footer1 img {
-        height: 45px;
-        width: 70px;
+        height: 50px;
+        width: 46px;
     }
 }
 

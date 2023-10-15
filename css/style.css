@@ -323,20 +323,20 @@ footer h5 {
 
 /*FIN FOOTER*/
 /*MEDIA QUERIES (PAGINAS INDEX Y CONTACTO*/
-@media (min-width: 380px) and (max-width: 575px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .header img {
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
   }
   .header h1 {
-    font-size: 16px;
+    font-size: 15px;
   }
   .header nav ul {
     padding: 0px;
   }
   .header nav ul li a {
-    font-size: 11px;
-    margin-right: 8px;
+    font-size: 10px;
+    margin-right: 4px;
   }
   .icon {
     justify-content: center;
@@ -360,14 +360,14 @@ footer h5 {
     grid-template-areas: "subtitle" "img1" "p";
   }
   .imgoffice {
-    height: 250px;
+    height: 220px;
   }
   .font {
-    font-size: 10px;
+    font-size: 9px;
   }
   .imgintro {
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 180px;
     padding: 5px;
   }
   .grid1 {
@@ -376,14 +376,14 @@ footer h5 {
     grid-template-areas: "sub" "form" "iframe" "address";
   }
   .imgtar {
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 180px;
     padding: 3px;
     border-radius: 30px;
   }
   .imgdyd {
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 180px;
     padding: 3px;
     border-radius: 30px;
   }
@@ -402,14 +402,18 @@ footer h5 {
     display: block;
     margin: 8px;
   }
+  .comunidad {
+    width: 260px;
+    height: 220px;
+  }
   .card {
     font-size: 13px;
-    height: 450px;
+    height: 420px;
     width: 344px;
     margin-top: 5px;
   }
   .streamers {
-    width: 340px;
+    width: 280px;
   }
   section div iframe {
     width: 300px;

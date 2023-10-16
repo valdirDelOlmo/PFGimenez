@@ -9,6 +9,91 @@
   font-family: "Comfortaa";
   src: url("../fonts/Comfortaa-Regular.ttf");
 }
+.comm {
+  padding: 15px 10px;
+}
+
+.font {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sec1 {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 97%;
+  padding: 20px;
+  margin: 0 auto;
+  border: 2px solid #DD781A;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px;
+}
+
+.video {
+  width: 100%;
+  height: 945px;
+}
+
+.imgtar {
+  padding: 3px;
+  border-radius: 30px;
+}
+
+.imgdyd {
+  padding: 3px;
+  border-radius: 30px;
+}
+
+.tit {
+  color: #ffffff;
+}
+
+.part2 {
+  background-color: #dd7e3a;
+  font-size: 20px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  margin: 25px;
+  justify-content: center;
+  border: 4px groove;
+  border-radius: 6px;
+  box-shadow: 0px 0px 15px;
+  flex-direction: row-reverse;
+  font-weight: bold;
+}
+
+.part1 {
+  background-color: #9b775e;
+  font-size: 20px;
+  height: 250px;
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px dotted;
+  border-radius: 6px;
+  box-shadow: 0px 0px 15px;
+  font-weight: bold;
+}
+
+.sub1 {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.sub2 {
+  font-family: "Macondo-regular";
+  background-color: #d6cbc1;
+  width: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px;
+}
+
 /*FIN GENERAL*/
 /*HEADER*/
 .header {
@@ -63,50 +148,40 @@
   background-color: #F1A661;
   font-family: "Macondo-regular";
 }
-
-main section {
+.main section {
   text-align: center;
 }
-
-main section div a {
+.main section a {
   text-decoration: none;
   color: #70431a;
 }
-
-main a:hover {
+.main section a:hover {
   color: #a09090;
 }
-
-h2 {
+.main h2 {
   font-size: 26px;
   padding-top: 15px;
   font-weight: bold;
 }
 
+/*FIN MAIN*/
+/*FORMULARIO*/
 form div {
   width: 150px;
   height: 90px;
 }
-
 form div input {
   width: 205px;
 }
 
-/*CLASES U IDS MAIN*/
-/*ORDENADAS POR ORDEN DE APARICION 
-TOMANDO COMO PUNTU DE PARIIDA LA PAGINA
-PRINCIPAL Y OBSERVANDO EN ORDEN LAS
-SIGUIENTES PAGINAS*/
+/*FIN FORMULARIO*/
+/*INDEX CLASES*/
 .grid {
   background-color: #9b775e;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 10% 90%;
   grid-template-areas: "img1 subtitle" "img1 p";
-}
-
-.comm {
-  padding: 15px 10px;
 }
 
 .imgin {
@@ -124,77 +199,16 @@ SIGUIENTES PAGINAS*/
   padding-top: 50px;
 }
 
-.font {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.sec1 {
-  background-color: rgba(255, 255, 255, 0.3);
-  width: 97%;
-  padding: 20px;
-  margin: 0 auto;
-  border: 2px solid #DD781A;
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px;
+.imgintro {
+  border-radius: 30px;
 }
 
 .subb2 {
   margin-bottom: 8px;
 }
 
-.imgintro {
-  border-radius: 30px;
-}
-
-.video {
-  width: 100%;
-  height: 945px;
-}
-
-.imgtar {
-  padding: 3px;
-  border-radius: 30px;
-}
-
-.imgdyd {
-  padding: 3px;
-  border-radius: 30px;
-}
-
-.tit {
-  color: #ffffff;
-}
-
-.part2 {
-  background-color: #dd7e3a;
-  font-size: 20px;
-  height: 250px;
-  display: flex;
-  align-items: center;
-  margin: 25px;
-  justify-content: center;
-  border: 4px groove;
-  border-radius: 6px;
-  box-shadow: 0px 0px 15px;
-  flex-direction: row-reverse;
-  font-weight: bold;
-}
-
-.part1 {
-  background-color: #9b775e;
-  font-size: 20px;
-  height: 250px;
-  margin: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 4px dotted;
-  border-radius: 6px;
-  box-shadow: 0px 0px 15px;
-  font-weight: bold;
-}
-
+/*FIN INDEX CLASES*/
+/*CLASES COMUNIDAD*/
 .cards {
   display: flex;
   justify-content: space-evenly;
@@ -214,24 +228,7 @@ SIGUIENTES PAGINAS*/
   color: #b1b0b0;
 }
 
-.sub1 {
-  padding: 25px;
-  display: flex;
-  justify-content: center;
-}
-
-.sub2 {
-  font-family: "Macondo-regular";
-  background-color: #d6cbc1;
-  width: 540px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid;
-  border-radius: 8px;
-  box-shadow: 0px 0px 20px;
-}
-
+/*FIN CLASES COMUNIDAD*/
 .main2 {
   height: 850px;
   background-image: url("../img/spartan.webp");
@@ -259,6 +256,7 @@ SIGUIENTES PAGINAS*/
   display: flex;
   flex-direction: column;
   font-size: 19px;
+  text-align: center;
   color: #ffffff;
   font-weight: bold;
   grid-area: address;
@@ -281,7 +279,6 @@ SIGUIENTES PAGINAS*/
   padding-top: 50px;
 }
 
-/*FIN MAIN*/
 /*FOOTER*/
 .footer1 {
   font-family: "Macondo-regular";
@@ -291,15 +288,16 @@ SIGUIENTES PAGINAS*/
   flex-direction: column;
   text-align: center;
 }
-
-/* .imgs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 .footer1 img {
   height: 60px;
   width: 56px;
+}
+.footer1 h4 {
+  font-size: 20px;
+  color: #ffffff;
+}
+.footer1 h5 {
+  font-size: 16px;
 }
 
 .links {
@@ -310,19 +308,8 @@ SIGUIENTES PAGINAS*/
   justify-content: center;
 }
 
-footer h4 {
-  font-family: "Macondo-regular";
-  font-size: 20px;
-  color: #ffffff;
-}
-
-footer h5 {
-  font-family: "Macondo-regular";
-  font-size: 16px;
-}
-
 /*FIN FOOTER*/
-/*MEDIA QUERIES (PAGINAS INDEX Y CONTACTO*/
+/*MEDIA QUERIES*/
 @media (min-width: 320px) and (max-width: 480px) {
   .header img {
     width: 17px;
@@ -344,9 +331,9 @@ footer h5 {
   .menu1 {
     justify-content: center;
   }
-  h2 {
+  .main h2 {
     font-family: "Macondo Regular";
-    font-size: 18px;
+    font-size: 16px;
     padding: 0px;
   }
   h3 {
@@ -387,6 +374,9 @@ footer h5 {
     padding: 3px;
     border-radius: 30px;
   }
+  .comm {
+    padding: 10px 0px;
+  }
   .video {
     height: 400px;
   }
@@ -408,12 +398,12 @@ footer h5 {
   }
   .card {
     font-size: 13px;
-    height: 420px;
+    height: 440px;
     width: 344px;
     margin-top: 5px;
   }
   .streamers {
-    width: 280px;
+    width: 100%;
   }
   section div iframe {
     width: 300px;
@@ -684,6 +674,9 @@ footer h5 {
     height: 380px;
     padding: 10px;
   }
+  .tit {
+    margin-bottom: 15px;
+  }
   .part2 {
     font-size: 16px;
     margin: 8px;
@@ -704,6 +697,4 @@ footer h5 {
     width: 280px;
   }
 }
-/*FIN MEDIA QUERIES*/
-
-/*# sourceMappingURL=style.css.map */
+/*FIN MEDIA QUERIES*//*# sourceMappingURL=style.css.map */

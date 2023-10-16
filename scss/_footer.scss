@@ -1,0 +1,31 @@
+/*FOOTER*/
+
+.footer1 {
+    font-family: 'Macondo-regular';
+    background-color: #C7621A;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    img {
+        height: 60px;
+        width: 56px;
+    }
+    h4{
+        font-size: 20px;
+        color: #ffffff;
+    }
+    h5 {
+        font-size: 16px;
+    }
+}
+
+.links  {
+    width: auto;
+}
+
+.row {
+    justify-content: center;
+}
+
+/*FIN FOOTER*/

@@ -1,0 +1,101 @@
+/*GENERAL*/
+
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url("../fonts/Comfortaa-Regular.ttf");
+}
+
+.comm {
+    padding: 15px 10px;
+}
+
+.font {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sec1 {
+    background-color: rgba(255, 255, 255, 0.30);
+    width: 97%;
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px solid  #DD781A;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px;
+}
+
+.video {
+    width: 100%;
+    height: 945px;
+}
+
+.imgtar {
+    padding: 3px;
+    border-radius: 30px;
+
+}
+
+.imgdyd {
+    padding: 3px;
+    border-radius: 30px;
+}
+
+.tit {
+    color: #ffffff;
+
+}
+
+.part2 {
+    background-color: #dd7e3a;
+    font-size: 20px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    justify-content: center;
+    border: 4px groove;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px;
+    flex-direction: row-reverse;
+    font-weight: bold;
+}
+
+.part1 { 
+    background-color: #9b775e; 
+    font-size: 20px;
+    height: 250px;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px dotted;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.sub1 {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub2 {
+    font-family:'Macondo-regular';
+    background-color: #d6cbc1;
+    width: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px;
+}
+
+/*FIN GENERAL*/

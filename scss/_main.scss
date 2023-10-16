@@ -1,0 +1,23 @@
+/*MAIN*/
+
+.main {
+    background-color: #F1A661;
+    font-family: 'Macondo-regular';
+    section {
+        text-align: center;
+        a {
+            text-decoration: none;
+            color: #70431a;
+        &:hover {
+            color: #a09090;
+        }
+        }   
+    }
+    h2 { 
+        font-size: 26px;
+        padding-top: 15px;
+        font-weight: bold;
+    }
+}
+
+/*FIN MAIN*/

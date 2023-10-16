@@ -1,0 +1,36 @@
+/*INDEX CLASES*/
+
+.grid {
+    background-color: #9b775e;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: 
+    "img1 subtitle"
+    "img1 p";
+}
+
+.imgin {
+    grid-area: img1;
+}
+
+.subb {
+    display: flex;
+    justify-content: center;
+    grid-area: subtitle;
+}
+    
+.par {
+    grid-area: p;
+    padding-top: 50px;
+}
+
+.imgintro {
+    border-radius: 30px;
+}
+
+.subb2 {
+    margin-bottom: 8px;
+}
+
+/*FIN INDEX CLASES*/

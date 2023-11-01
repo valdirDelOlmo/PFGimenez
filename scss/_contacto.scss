@@ -18,11 +18,13 @@
 }
 
 .form {
+    background-color: rgba(247, 246, 235, 0.4);
+    border-radius: 10px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     grid-area: form;
+    margin-left: 60px;
+    margin-top: 40px;
+
 }
 
 .address {
@@ -30,6 +32,7 @@
     display: flex;  
     flex-direction: column;
     font-size: 19px;
+    font-family: "Macondo regular";
     text-align: center;
     color: #ffffff;
     font-weight: bold;
@@ -37,6 +40,7 @@
 }
 
 .subbmit {
+    font-family: "Macondo regular";
     color: #ffffff ;
     display: flex;
     justify-content: center;
@@ -44,6 +48,20 @@
     grid-area: sub;
     font-weight: bold;
     text-align: center;
+}
+
+iframe {
+    height: 560px;
+    width: 620px;
+    padding-bottom: 10px;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #db5d15; 
+    --bs-btn-border-color: #db5d15;
+    --bs-btn-hover-bg: #e09737;
+    --bs-btn-hover-border-color: #e09737;
 }
 
 .iframe1 {

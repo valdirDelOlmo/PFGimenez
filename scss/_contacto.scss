@@ -14,7 +14,7 @@
     grid-template-areas: 
     "sub sub"
     "form iframe"
-    "address free";
+    "address address";
 }
 
 .form {
@@ -43,6 +43,7 @@
     align-items: center;
     grid-area: sub;
     font-weight: bold;
+    text-align: center;
 }
 
 .iframe1 {

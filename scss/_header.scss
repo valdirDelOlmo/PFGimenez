@@ -37,9 +37,7 @@
 
 .icon {
     height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-center;
 } 
 .menu1 {
     display: flex;

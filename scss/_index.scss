@@ -18,11 +18,18 @@
     display: flex;
     justify-content: center;
     grid-area: subtitle;
+    color: white;
 }
-    
+
 .par {
     grid-area: p;
     padding-top: 50px;
+}
+
+.begin {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
 }
 
 .imgintro {

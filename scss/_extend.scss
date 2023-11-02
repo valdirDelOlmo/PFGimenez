@@ -1,0 +1,25 @@
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%section-border {
+    font-size: 20px;
+    height: 250px;
+    margin: 25px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+%hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+%imgs {
+    padding: 3px;
+    border-radius: 30px;
+}

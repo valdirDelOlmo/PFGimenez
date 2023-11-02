@@ -1,11 +1,41 @@
 /*FORMULARIO*/
+.form {
+    border-radius: 10px;
+    display: flex;
+    grid-area: form;
+    margin-left: 60px;
+    margin-top: 40px;
+}
 
-form div {
-    width: 150px;
-    height: 90px;
-    input {
-        width: 205px;
-    }
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #db5d15; 
+    --bs-btn-border-color: #db5d15;
+    --bs-btn-hover-bg: #e09737;
+    --bs-btn-hover-border-color: #e09737;
+}
+
+.inputs {
+    font-family: "Macondo-regular";
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-select {
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 10px;
+    font-weight: bold;
+    width: 200px;
 }
 
 /*FIN FORMULARIO*/

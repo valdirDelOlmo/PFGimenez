@@ -1,3 +1,29 @@
+.iframe1, .subbmit, .icon, .sub2, .part1, .part2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.part1, .part2 {
+  font-size: 20px;
+  height: 250px;
+  margin: 25px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.part1:hover, .part2:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.imgdyd, .imgtar {
+  padding: 3px;
+  border-radius: 30px;
+}
+
 /*GENERAL*/
 * {
   padding: 0;
@@ -34,59 +60,19 @@
   height: 945px;
 }
 
-.imgtar {
-  padding: 3px;
-  border-radius: 30px;
-}
-
-.imgdyd {
-  padding: 3px;
-  border-radius: 30px;
-}
-
 .tit {
   color: #ffffff;
 }
 
 .part2 {
   background: linear-gradient(to left, rgb(209, 104, 18), orange);
-  font-size: 20px;
-  height: 250px;
-  display: flex;
-  align-items: center;
-  margin: 25px;
-  justify-content: center;
   border: 4px groove;
-  border-radius: 6px;
-  box-shadow: 0px 0px 15px;
   flex-direction: row-reverse;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.part2:hover {
-  transform: scale(1.02);
-  cursor: pointer;
 }
 
 .part1 {
   background: linear-gradient(to right, #9b775e, rgb(241, 212, 158));
-  font-size: 20px;
-  height: 250px;
-  margin: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 4px dotted;
-  border-radius: 6px;
-  box-shadow: 0px 0px 15px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.part1:hover {
-  transform: scale(1.02);
-  cursor: pointer;
 }
 
 .sub1 {
@@ -99,9 +85,6 @@
   font-family: "Macondo-regular";
   background-color: #d6cbc1;
   width: 540px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 2px solid;
   border-radius: 8px;
   box-shadow: 0px 0px 20px;
@@ -146,9 +129,6 @@
 
 .icon {
   height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .menu1 {
@@ -181,12 +161,43 @@
 
 /*FIN MAIN*/
 /*FORMULARIO*/
-form div {
-  width: 150px;
-  height: 90px;
+.form {
+  border-radius: 10px;
+  display: flex;
+  grid-area: form;
+  margin-left: 60px;
+  margin-top: 40px;
 }
-form div input {
-  width: 205px;
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #db5d15;
+  --bs-btn-border-color: #db5d15;
+  --bs-btn-hover-bg: #e09737;
+  --bs-btn-hover-border-color: #e09737;
+}
+
+.inputs {
+  font-family: "Macondo-regular";
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-select {
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 10px;
+  font-weight: bold;
+  width: 200px;
 }
 
 /*FIN FORMULARIO*/
@@ -207,11 +218,18 @@ form div input {
   display: flex;
   justify-content: center;
   grid-area: subtitle;
+  color: white;
 }
 
 .par {
   grid-area: p;
   padding-top: 50px;
+}
+
+.begin {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
 }
 
 .imgintro {
@@ -258,14 +276,6 @@ form div input {
   grid-template-areas: "sub sub" "form iframe" "address address";
 }
 
-.form {
-  border-radius: 10px;
-  display: flex;
-  grid-area: form;
-  margin-left: 60px;
-  margin-top: 40px;
-}
-
 .address {
   padding: 15px;
   display: flex;
@@ -281,9 +291,6 @@ form div input {
 .subbmit {
   font-family: "Macondo regular";
   color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   grid-area: sub;
   font-weight: bold;
   text-align: center;
@@ -296,35 +303,7 @@ iframe {
   border-radius: 20px;
 }
 
-.btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #db5d15;
-  --bs-btn-border-color: #db5d15;
-  --bs-btn-hover-bg: #e09737;
-  --bs-btn-hover-border-color: #e09737;
-}
-
-.inputs {
-  font-family: "Macondo-regular";
-  font-size: 18px;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 10px;
-  text-align: center;
-}
-
-.form-label {
-  font-weight: bold;
-}
-
-.form-select {
-  text-align: center;
-  font-weight: bold;
-}
-
 .iframe1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   grid-area: iframe;
   padding-top: 50px;
 }
@@ -405,6 +384,10 @@ iframe {
   .imgoffice {
     height: 220px;
   }
+  .begin {
+    font-size: 16px;
+    padding: 15px;
+  }
   .font {
     font-size: 16px;
     padding: 16px;
@@ -473,22 +456,21 @@ iframe {
     padding-right: 60px;
   }
   .inputs {
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 10px;
-    text-align: center;
     margin-top: 30px;
   }
-  .form-label {
-    font-weight: bold;
-  }
   .form-select {
-    text-align: center;
+    padding: 1px;
+  }
+  .form-control {
+    padding: 1px;
   }
   .btn {
-    margin-top: 10px;
+    margin-left: 2px;
   }
   .iframe1 {
     padding-top: 95px;
+    height: 200px;
+    margin-top: 75px;
   }
   form div {
     width: 120px;
@@ -767,4 +749,6 @@ iframe {
     width: 280px;
   }
 }
-/*FIN MEDIA QUERIES*//*# sourceMappingURL=style.css.map */
+/*FIN MEDIA QUERIES*/
+
+/*# sourceMappingURL=style.css.map */

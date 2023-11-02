@@ -25,7 +25,7 @@
 
 .main1 {
     height: 100%;
-}
+    }
 
     .icon {
     justify-content: center;
@@ -41,8 +41,7 @@
         font-size: 20px;
         font-weight: bold;
         padding: 3px;
-
-        }
+    }
     
 
     h3 {
@@ -62,6 +61,11 @@
 
     .imgoffice {
         height: 220px;
+    }
+
+    .begin {
+        font-size: 16px;
+        padding: 15px;
     }
 
     .font {
@@ -150,26 +154,25 @@
     }
 
     .inputs {
-        background-color: rgba(255, 255, 255, 0.7);
-        border-radius: 10px;
-        text-align: center;
         margin-top: 30px;
     }
 
-    .form-label {
-        font-weight: bold;
+    .form-select {
+        padding: 1px;
     }
 
-    .form-select {
-        text-align: center;
+    .form-control {
+        padding: 1px;
     }
 
     .btn {
-        margin-top: 10px;
+        margin-left: 2px;
     }
 
     .iframe1 {
         padding-top: 95px;
+        height: 200px;
+        margin-top: 75px;
     }
 
     form div {

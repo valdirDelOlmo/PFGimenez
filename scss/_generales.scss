@@ -37,60 +37,38 @@
 }
 
 .imgtar {
-    padding: 3px;
-    border-radius: 30px;
-
+    @extend %imgs;
 }
 
 .imgdyd {
-    padding: 3px;
-    border-radius: 30px;
+    @extend %imgs;
 }
 
 .tit {
     color: $color-blanco;
-
 }
 
 .part2 {
     background: linear-gradient(to left, rgb(209, 104, 18), orange );
-    font-size: 20px;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    margin: 25px;
-    justify-content: center;
+    @extend %flex-center;
+    @extend %section-border;
     border: 4px groove;
-    border-radius: 6px;
-    box-shadow: 0px 0px 15px;
     flex-direction: row-reverse;
-    font-weight: bold;
-    transition: 0.3s;
 }
 
 .part2:hover {
-    transform: scale(1.02);
-    cursor: pointer;
+    @extend %hover;
 }
 
 .part1 { 
     background: linear-gradient(to right, #9b775e , rgb(241, 212, 158) );
-    font-size: 20px;
-    height: 250px;
-    margin: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-center;
+    @extend %section-border;
     border: 4px dotted;
-    border-radius: 6px;
-    box-shadow: 0px 0px 15px;
-    font-weight: bold;
-    transition: 0.3s;
 }
 
 .part1:hover {
-    transform: scale(1.02);
-    cursor: pointer;
+    @extend %hover;
 }
 
 .sub1 {
@@ -103,9 +81,7 @@
     font-family:'Macondo-regular';
     background-color: #d6cbc1;
     width: 540px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-center;
     border: 2px solid;
     border-radius: 8px;
     box-shadow: 0px 0px 20px;

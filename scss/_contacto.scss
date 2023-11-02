@@ -17,15 +17,6 @@
     "address address";
 }
 
-.form {
-    border-radius: 10px;
-    display: flex;
-    grid-area: form;
-    margin-left: 60px;
-    margin-top: 40px;
-
-}
-
 .address {
     padding: 15px;
     display: flex;  
@@ -41,9 +32,7 @@
 .subbmit {
     font-family: "Macondo regular";
     color: $color-blanco ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-center;
     grid-area: sub;
     font-weight: bold;
     text-align: center;
@@ -56,35 +45,8 @@ iframe {
     border-radius: 20px;
 }
 
-.btn-primary {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #db5d15; 
-    --bs-btn-border-color: #db5d15;
-    --bs-btn-hover-bg: #e09737;
-    --bs-btn-hover-border-color: #e09737;
-}
-
-.inputs {
-    font-family: "Macondo-regular";
-    font-size: 18px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 10px;
-    text-align: center;
-}
-
-.form-label {
-    font-weight: bold;
-}
-
-.form-select {
-    text-align: center;
-    font-weight: bold;
-}
-
 .iframe1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-center;
     grid-area: iframe;
     padding-top: 50px;
 }

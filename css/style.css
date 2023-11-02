@@ -11,6 +11,7 @@
 }
 .comm {
   padding: 15px 10px;
+  margin-bottom: 0px;
 }
 
 .font {
@@ -60,6 +61,12 @@
   box-shadow: 0px 0px 15px;
   flex-direction: row-reverse;
   font-weight: bold;
+  transition: 0.3s;
+}
+
+.part2:hover {
+  transform: scale(1.02);
+  cursor: pointer;
 }
 
 .part1 {
@@ -74,6 +81,12 @@
   border-radius: 6px;
   box-shadow: 0px 0px 15px;
   font-weight: bold;
+  transition: 0.3s;
+}
+
+.part1:hover {
+  transform: scale(1.02);
+  cursor: pointer;
 }
 
 .sub1 {

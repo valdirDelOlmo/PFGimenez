@@ -48,7 +48,7 @@
 }
 
 .part2 {
-  background-color: #dd7e3a;
+  background: linear-gradient(to left, rgb(209, 104, 18), orange);
   font-size: 20px;
   height: 250px;
   display: flex;
@@ -63,7 +63,7 @@
 }
 
 .part1 {
-  background-color: #9b775e;
+  background: linear-gradient(to right, #9b775e, rgb(241, 212, 158));
   font-size: 20px;
   height: 250px;
   margin: 25px;
@@ -281,6 +281,7 @@ iframe {
   height: 560px;
   width: 620px;
   padding-bottom: 10px;
+  border-radius: 20px;
 }
 
 .btn-primary {
@@ -355,7 +356,7 @@ iframe {
   }
   h2 {
     font-family: "Macondo Regular";
-    font-size: 26px;
+    font-size: 23px;
     font-weight: bold;
     padding: 10px;
   }
@@ -399,12 +400,14 @@ iframe {
     height: 400px;
   }
   .part2 {
+    background: linear-gradient(rgb(209, 104, 18), orange);
     height: auto;
     font-size: 15px;
     display: block;
     margin: 8px;
   }
   .part1 {
+    background: linear-gradient(#9b775e, rgb(241, 212, 158));
     height: auto;
     font-size: 15px;
     display: block;
@@ -428,7 +431,7 @@ iframe {
     height: 250px;
   }
   .address {
-    font-size: 11px;
+    font-size: 13px;
   }
   .form {
     justify-content: center;

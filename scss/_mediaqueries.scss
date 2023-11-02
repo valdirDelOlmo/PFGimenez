@@ -34,7 +34,7 @@
     
     h2 {
         font-family: 'Macondo Regular';
-        font-size: 26px;
+        font-size: 23px;
         font-weight: bold;
         padding: 10px;
 
@@ -97,6 +97,7 @@
     }
 
     .part2 {
+        background: linear-gradient(  rgb(209, 104, 18), orange );
         height: auto;
         font-size: 15px;
         display: block;
@@ -104,6 +105,7 @@
     }
 
     .part1 { 
+        background: linear-gradient( #9b775e , rgb(241, 212, 158) );
         height: auto;
         font-size: 15px;
         display: block;
@@ -132,7 +134,7 @@
     }
 
     .address {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .form {

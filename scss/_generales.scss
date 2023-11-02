@@ -52,7 +52,7 @@
 }
 
 .part2 {
-    background-color: #dd7e3a;
+    background: linear-gradient(to left, rgb(209, 104, 18), orange );
     font-size: 20px;
     height: 250px;
     display: flex;
@@ -67,7 +67,7 @@
 }
 
 .part1 { 
-    background-color: #9b775e; 
+    background: linear-gradient(to right, #9b775e , rgb(241, 212, 158) );
     font-size: 20px;
     height: 250px;
     margin: 25px;

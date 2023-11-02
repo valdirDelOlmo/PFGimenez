@@ -1,7 +1,7 @@
 /*HEADER*/
 
 .header {
-    background-color: #DD781A;
+    background-color: $color-primario;
     font-family: 'Macondo-regular';
     img {
         width: 35px;
@@ -25,7 +25,7 @@
                 margin-left: 45px;
                 margin-right: 45px;    
                 text-decoration: none;
-                color: #ffffff;
+                color: $color-blanco;
                 &:hover {
                     color: #F1A661 ;
                 }

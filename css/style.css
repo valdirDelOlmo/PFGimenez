@@ -259,7 +259,6 @@ form div input {
 }
 
 .form {
-  background-color: rgba(247, 246, 235, 0.4);
   border-radius: 10px;
   display: flex;
   grid-area: form;
@@ -291,9 +290,9 @@ form div input {
 }
 
 iframe {
-  height: 560px;
+  height: 600px;
   width: 620px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   border-radius: 20px;
 }
 
@@ -303,6 +302,23 @@ iframe {
   --bs-btn-border-color: #db5d15;
   --bs-btn-hover-bg: #e09737;
   --bs-btn-hover-border-color: #e09737;
+}
+
+.inputs {
+  font-family: "Macondo-regular";
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-select {
+  text-align: center;
+  font-weight: bold;
 }
 
 .iframe1 {
@@ -361,6 +377,9 @@ iframe {
     margin-right: 4px;
     margin-left: 0px;
   }
+  .main1 {
+    height: 100%;
+  }
   .icon {
     justify-content: center;
   }
@@ -369,9 +388,9 @@ iframe {
   }
   h2 {
     font-family: "Macondo Regular";
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bold;
-    padding: 10px;
+    padding: 3px;
   }
   h3 {
     font-family: "Macondo Regular";
@@ -440,19 +459,36 @@ iframe {
     width: 100%;
   }
   section div iframe {
-    width: 300px;
+    width: 75%;
     height: 250px;
+    padding-bottom: 0px;
   }
   .address {
     font-size: 13px;
   }
   .form {
+    background-color: 0;
     justify-content: center;
     align-items: center;
-    padding-right: 80px;
+    padding-right: 60px;
+  }
+  .inputs {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .form-label {
+    font-weight: bold;
+  }
+  .form-select {
+    text-align: center;
+  }
+  .btn {
+    margin-top: 10px;
   }
   .iframe1 {
-    padding-bottom: 80px;
+    padding-top: 95px;
   }
   form div {
     width: 120px;
